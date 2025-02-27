@@ -54,10 +54,9 @@ char *reverseWords(const char *text)
 
 int main(void)
 {
-  char *sentence = "The quick brown fox jumps over the lazy dog.";
+  char *sentence = "The red fox jumps over the lazy dog";
   char *buffer = reverseWords(sentence);
 
-  /*sihT si na !elpmaxe*/
   printf("%s\n", buffer);
   return 0;
 }
